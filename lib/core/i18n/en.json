@@ -258,7 +258,8 @@
     },
     "ACCESSIBILITY": {
       "SELECT_ALL": "Select all",
-      "SELECT_FILE": "Select file"
+      "SELECT_FILE": "Select file",
+      "ICON_ALT_TEXT": "File type {{ type }}"
     }
   },
   "USER_PROFILE": {
