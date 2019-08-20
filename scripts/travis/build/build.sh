@@ -11,7 +11,6 @@ npm install @alfresco/adf-cli@alpha
 
 if [[ $TRAVIS_PULL_REQUEST == "false" ]];
 then
-
     if [[ $TRAVIS_BRANCH == "development" ]];
     then
         ./node_modules/@alfresco/adf-cli/bin/adf-cli update-version --alpha --pathPackage "$(pwd)" || exit 1;
